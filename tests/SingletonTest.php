@@ -3,8 +3,9 @@
  * Created by PhpStorm.
  * User: sockstack
  * Date: 2018/11/6
- * Time: 23:36
+ * Time: 23:36.
  */
+
 namespace Sockstack\DesignPattern\Test;
 
 use PHPUnit\Framework\TestCase;
@@ -18,7 +19,7 @@ class SingletonTest extends TestCase
     public function testSingletonByNew()
     {
         $object = new Singleton();
-        $this->fail("create fail");
+        $this->fail('create fail');
     }
 
     /**
@@ -30,7 +31,7 @@ class SingletonTest extends TestCase
         $object = Singleton::getInstance();
         $clone_objecdt = clone $object;
 
-        $this->fail("clone fail");
+        $this->fail('clone fail');
     }
 
     /**
@@ -42,7 +43,7 @@ class SingletonTest extends TestCase
         $object = Singleton::getInstance();
         $unserialize_object = unserialize(serialize($object));
 
-        $this->fail("unserialize fail");
+        $this->fail('unserialize fail');
     }
 
     public function testSingleton()
