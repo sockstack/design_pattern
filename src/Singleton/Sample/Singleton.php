@@ -1,4 +1,5 @@
 <?php
+
 namespace Sockstack\DesignPattern\Singleton\Sample;
 
 class Singleton
@@ -9,11 +10,10 @@ class Singleton
     //将构造函数私有化
     private function __construct()
     {
-        
     }
 
     //获取实例
-    static public function getInstance()
+    public static function getInstance()
     {
         return empty(static::$instance) ? static::$instance = new static() : static::$instance;
     }
@@ -30,4 +30,3 @@ class Singleton
         trigger_error('对象不能被反序列化');
     }
 }
-
