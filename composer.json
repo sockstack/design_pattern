@@ -1,0 +1,20 @@
+{
+    "name": "sockstack/design_pattern",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sockstack",
+            "email": "85564748@qq.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sockstack\\DesignPattern\\": "src",
+            "Sockstack\\DesignPattern\\Test\\": "test"
+        }
+    }
+}
