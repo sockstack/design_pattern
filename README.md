@@ -1,6 +1,6 @@
 <h1 align="center"> design_pattern </h1>
 
-<p align="center"> .</p>
+<p align="center"> [![StyleCI](https://github.styleci.io/repos/156411862/shield?branch=master)](https://github.styleci.io/repos/156411862) [![Build Status](https://www.travis-ci.org/sockstack/weather-sdk-for-free.svg?branch=master)](https://www.travis-ci.org/sockstack/weather-sdk-for-free)</p>
 
 
 ## Installing
