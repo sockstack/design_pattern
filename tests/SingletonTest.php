@@ -51,6 +51,6 @@ class SingletonTest extends TestCase
         $object1 = Singleton::getInstance();
         $object2 = Singleton::getInstance();
 
-        $this->assertEquals($object1, $object2);
+        $this->assertTrue($object1 === $object2, '两个对象不是同一个对象');
     }
 }

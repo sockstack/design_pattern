@@ -6,12 +6,16 @@
 ## Installing
 
 ```shell
-$ composer require sockstack/design_pattern -vvv
+$ git clone https://github.com/sockstack/design_pattern.git
 ```
 
 ## Usage
 
-TODO
+```shell
+$ cd design_pattern/
+$ composer install -vvv
+$ vendor/bin/phpunit
+```
 
 ## Contributing
 
