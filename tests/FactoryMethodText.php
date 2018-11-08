@@ -3,11 +3,10 @@
  * Created by PhpStorm.
  * User: Administrator
  * Date: 2018/11/8
- * Time: 16:09
+ * Time: 16:09.
  */
 
 namespace Sockstack\DesignPattern\Test;
-
 
 use PHPUnit\Framework\TestCase;
 use Sockstack\DesignPattern\FactoryMethod\Sample\Implemention\SUV;
