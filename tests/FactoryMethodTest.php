@@ -14,7 +14,7 @@ use Sockstack\DesignPattern\FactoryMethod\Sample\Implemention\SUVFactory;
 use Sockstack\DesignPattern\FactoryMethod\Sample\Implemention\Taxi;
 use Sockstack\DesignPattern\FactoryMethod\Sample\Implemention\TaxiFactory;
 
-class FactoryMethodText extends TestCase
+class FactoryMethodTest extends TestCase
 {
     public function testFactoryMethod()
     {
